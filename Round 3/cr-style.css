@@ -1,0 +1,86 @@
+body{
+    background: linear-gradient(#0081c7, #001d88);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: poppins;
+}
+
+h1{
+    color: white;
+    font-weight: normal;
+    text-align: center;
+
+}
+
+.inside{
+    margin-left: 100px;
+    height: 500px;
+    width: 600px;
+    display: block;
+    position: fixed;
+    z-index: +1;
+    transition: 0.5s ease;
+}
+
+.inside:hover{
+    box-shadow: 8px 8px 30px #000000;
+    transition: 0.5s ease;
+}
+
+.in-img1{
+    background: url("img/vk.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 50%;
+}
+
+.in-img2{
+    background: url("img/VK_match.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    width: 100%;
+    height: 50%;
+}
+
+.desc{
+    background: linear-gradient(#020080, #3b0296);
+    margin: 80px 20px 60px 400px;
+    height: 450px;
+    width: 900px;
+    position: fixed;
+    text-align: right;
+    justify-content: right;
+    padding: 10px;
+    color:white;
+}
+
+.h{
+    text-align: left;
+    font-weight: bold;
+    margin: auto;
+    padding: 10px;
+}
+
+.inner{
+    padding-left: 400px;
+    padding-right: 60px;
+
+}
+
+.desc2{
+    text-align: left;
+    padding: 10px;
+}
+
+.desc_shadow{
+    box-shadow: 0 0 30px #5c5c5c;
+    transition: 0.5s ease;
+}
+
+.desc_shadow:hover{
+    box-shadow: 8px 8px 30px #000000;
+    transition: 0.5s ease;
+}
